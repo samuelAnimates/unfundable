@@ -8,7 +8,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 /* end CSS Reset */
 
 body {
-	line-height: 1.15;
+    box-sizing: border-box;
+    line-height: 1.15;
 }
 ol, ul {
 	list-style: none;
@@ -25,6 +26,9 @@ ol, ul {
 }
 .bg-image-unfundablePattern{
     background-image: url("../images/unfundablePattern.svg");
+}
+.color-white{
+    color: white;
 }
 .flex-basis-10em{
     flex-basis: 25em;
@@ -53,6 +57,133 @@ ol, ul {
 .max-width-40em{
     max-width: 40em;
 }
+.padding-1em-2em{
+    padding: 1em 2em;
+}
+.padding-2em{
+    padding: 2em;
+}
+
 .width-100pc{
     width: 100%;
+}
+
+@media (max-width: 576px) {
+    .width-xs-2{
+        width:16.66%
+    }
+    .width-xs-3{
+        width:25%;
+    }
+    .width-xs-4{
+        width:33.33%;
+    }
+    .width-xs-6{
+        width:50%;
+    }
+    .width-xs-8{
+        width:66.66%;
+    }
+    .width-xs-9{
+        width:74%;
+    }
+    .width-xs-12{
+        width:100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .width-sm-2{
+        width:16.66%
+    }
+    .width-sm-3{
+        width:25%;
+    }
+    .width-sm-4{
+        width:33.33%;
+    }
+    .width-sm-6{
+        width:50%;
+    }
+    .width-sm-8{
+        width:66.66%;
+    }
+    .width-sm-9{
+        width:74%;
+    }
+    .width-sm-12{
+        width:100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .width-md-2{
+        width:16.66%
+    }
+    .width-md-3{
+        width:25%;
+    }
+    .width-md-4{
+        width:33.33%;
+    }
+    .width-md-6{
+        width:50%;
+    }
+    .width-md-8{
+        width:66.66%;
+    }
+    .width-md-9{
+        width:74%;
+    }
+    .width-md-12{
+        width:100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .width-lg-2{
+        width:16.66%
+    }
+    .width-lg-3{
+        width:25%;
+    }
+    .width-lg-4{
+        width:33.33%;
+    }
+    .width-lg-6{
+        width:50%;
+    }
+    .width-lg-8{
+        width:66.66%;
+    }
+    .width-lg-9{
+        width:74%;
+    }
+    .width-lg-12{
+        width:100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .width-xl-2{
+        width:16.66%
+    }
+    .width-xl-3{
+        width:25%;
+    }
+    .width-xl-4{
+        width:33.33%;
+    }
+    .width-xl-6{
+        width:50%;
+    }
+    .width-xl-8{
+        width:66.66%;
+    }
+    .width-xl-9{
+        width:74%;
+    }
+    .width-xl-12{
+        width:100%;
+    }
 }
