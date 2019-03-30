@@ -3,7 +3,7 @@
     v2.0 | 20110126
     License: none (public domain)
 */
-html,body,div,span,applet,object,iframe,blockquote,pre,a,ol,ul,li,form,label,legend,caption,article,aside,details,embed,figure,figcaption,footer,header,menu,nav,section,mark,audio,video{box-sizing:border-box;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+html,body,div,span,applet,object,iframe,blockquote,pre,ol,ul,li,form,label,legend,caption,article,aside,details,embed,figure,figcaption,footer,header,menu,nav,section,mark,audio,video{box-sizing:border-box;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 /* end CSS Reset */
 
@@ -42,6 +42,17 @@ body {
     font-size: 14pt;
     line-height: 1.25;
 }
+a{
+    background-color: rgb(253, 253, 253);
+    border:0;
+    color: blue;
+    font-family: inherit;
+    font-size: inherit;
+    margin:0;
+    padding:.15em;
+    text-decoration-line: underline;
+    vertical-align:baseline;  
+}
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
@@ -69,7 +80,12 @@ p{
 ol, ul {
 	list-style: none;
 }
-
+.align-items-center{
+    align-items: center;
+}
+.align-items-flex-end{
+    align-items: flex-end;
+}
 .bg-yellow{
     background-color: yellow;
 }
@@ -78,6 +94,12 @@ ol, ul {
 }
 .bg-color-blue{
     background-color: rgb(51, 82, 163);
+}
+.bg-color-brown{
+    background-color: rgb(140, 58, 28);
+}
+.bg-color-green{
+    background-color: rgb(20, 118, 61);
 }
 .bg-color-pink{
     background-color: rgb(163, 25, 87);
@@ -97,16 +119,16 @@ ol, ul {
     border-radius: 25px;
 }
 .box-shadow{
-    box-shadow: -5px 5px #888888;
+    box-shadow: -5px 5px rgba(0,0,0,0.33);
 }
 .color-white{
     color: rgb(255, 255, 255);
 }
-.flex-basis-10em{
-    flex-basis: 25em;
-}
-.flex-container{
+.display-flex{
     display: flex;
+}
+.display-inline-block{
+    display: inline-block;
 }
 .flex-direction-row{
     flex-direction: row;
@@ -114,11 +136,11 @@ ol, ul {
 .flex-wrap{
     flex-wrap: wrap;
 }
-.flex-grow-1{
-    flex-grow: 1;
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
 }
-.flex-grow-2{
-    flex-grow: 2;
+.font-size-p9em{
+    font-size: 0.9em;
 }
 .font-weight-600{
     font-weight: 600;
@@ -132,14 +154,29 @@ ol, ul {
 .max-height-5em{
     max-height: 5em;
 }
+.max-width-15em{
+    max-width: 15em;
+}
 .max-width-25em{
     max-width: 25em;
 }
 .max-width-40em{
     max-width: 40em;
 }
+.max-width-100pc{
+    max-width: 100%;
+}
 .object-fit-cover{
     object-fit: cover;
+}
+.padding-p25em{
+    padding: 0.25em;
+}
+.padding-p5em{
+    padding: 0.5em;
+}
+.padding-p75em{
+    padding: 0.75em;
 }
 .padding-1em{
     padding: 1em;
@@ -153,7 +190,7 @@ ol, ul {
 .position-static{
     position: static;
 }
-.transform{
+.transform-1em-1em{
     transform:translate(1em,1em);
 }
 .text-center{
