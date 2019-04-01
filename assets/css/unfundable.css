@@ -40,8 +40,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14pt;
-    line-height: 1.25;
+    line-height: 1.35;
+    color: rgb(0,0,0);
 }
+
 a{
     background-color: rgb(253, 253, 253);
     border:0;
@@ -49,7 +51,7 @@ a{
     font-family: inherit;
     font-size: inherit;
     margin:0;
-    padding:.15em;
+    padding:.03em;
     text-decoration-line: underline;
     vertical-align:baseline;  
 }
@@ -86,6 +88,9 @@ ol, ul {
 .align-items-flex-end{
     align-items: flex-end;
 }
+.align-items-flex-start{
+    align-items: flex-start;
+}
 .bg-yellow{
     background-color: yellow;
 }
@@ -99,7 +104,7 @@ ol, ul {
     background-color: rgb(140, 58, 28);
 }
 .bg-color-green{
-    background-color: rgb(20, 118, 61);
+    background-color: rgb(16, 101, 52);
 }
 .bg-color-pink{
     background-color: rgb(163, 25, 87);
@@ -120,6 +125,9 @@ ol, ul {
 }
 .box-shadow{
     box-shadow: -5px 5px rgba(0,0,0,0.33);
+}
+.color-black{
+    color: rgb(0,0,0);
 }
 .color-white{
     color: rgb(255, 255, 255);
@@ -150,6 +158,12 @@ ol, ul {
 }
 .height-7em{
     height: 14em;
+}
+.height-100pc{
+    height: 100%;
+}
+.max-height-2em{
+    max-height: 2em;
 }
 .max-height-5em{
     max-height: 5em;
@@ -195,6 +209,9 @@ ol, ul {
 }
 .text-center{
     text-align: center;
+}
+.text-left{
+    text-align: left;
 }
 .width-100pc{
     width: 100%;
