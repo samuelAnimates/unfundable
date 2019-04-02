@@ -157,7 +157,7 @@ a.skip-main:focus, a.skip-main:active {
     border: 2px solid black;
 }
 .border-10px-solid-pink{
-    border: 10px solid rgb(163, 25, 87);;
+    border: 10px solid rgb(163, 25, 87);
 }
 .border-bottom-3px-dotted-white{
     border-bottom: 3px dotted white;
@@ -176,6 +176,21 @@ a.skip-main:focus, a.skip-main:active {
 }
 .color-black{
     color: rgb(0,0,0);
+}
+.color-blue{
+    color: rgb(51, 82, 163);
+}
+.color-brown{
+    color: rgb(140, 58, 28);
+}
+.color-gray{
+    color: rgb(85, 87, 88);
+}
+.color-green{
+    color: rgb(16, 101, 52);
+}
+.color-pink{
+    color: rgb(163, 25, 87);
 }
 .color-white{
     color: rgb(255, 255, 255);
@@ -258,6 +273,12 @@ a.skip-main:focus, a.skip-main:active {
 .padding-2em{
     padding: 2em;
 }
+.padding-2em-p5em{
+    padding: 2em 0.5em;
+}
+.padding-left-2em{
+    padding-left: 2em;
+}
 .position-static{
     position: static;
 }
@@ -269,6 +290,9 @@ a.skip-main:focus, a.skip-main:active {
 }
 .text-left{
     text-align: left;
+}
+.width-15em{
+    width: 15em;
 }
 .width-100pc{
     width: 100%;
