@@ -225,6 +225,12 @@ a.skip-main:focus, a.skip-main:active {
 .height-14em{
     height: 14em;
 }
+.height-16em{
+    height: 16em;
+}
+.height-20em{
+    height: 20em;
+}
 .height-100pc{
     height: 100%;
 }
