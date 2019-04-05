@@ -43,7 +43,6 @@ body {
     line-height: 1.37;
     color: rgb(0,0,0);
 }
-
 a{
     background-color: rgb(253, 253, 253);
     border:0;
@@ -95,6 +94,10 @@ p{
 }
 ol, ul {
 	list-style: none;
+}
+::selection {
+    color: rgb(253, 253, 253);
+    background:rgb(163, 25, 87);
 }
 a.skip-main {
     left:-999px;
