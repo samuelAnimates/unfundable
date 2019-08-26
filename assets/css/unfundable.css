@@ -233,6 +233,9 @@ a.skip-main:focus, a.skip-main:active {
 .flex-wrap-reverse{
     flex-wrap: wrap-reverse;
 }
+.font-size-p5em{
+    font-size: 0.5em;
+}
 .font-size-p9em{
     font-size: 0.9em;
 }
